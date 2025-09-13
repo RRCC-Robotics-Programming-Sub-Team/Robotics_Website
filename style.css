@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, midnightblue, black, blue);
+  color: white;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  color: #FF4500; /* Mars red */
+  font-size: 1.8em;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav {
+  background-color: tan;
+  border: 2px solid black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: #FF4500; /* Mars red */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.project-box {
+  background-color: tan;
+  border: 2px solid black;
+  padding: 20px;
+  width: 200px;
+}
+
+.project-box h2 {
+  color: #FF4500; /* Mars red */
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background: #111;
+  border-top: 2px solid #444;
+}
