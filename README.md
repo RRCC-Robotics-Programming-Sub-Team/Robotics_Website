@@ -1,2 +1,2 @@
 # Robotics_Website
-Repo for RRCC Robotics Official Websit
+Repo for RRCC Robotics Official Website
